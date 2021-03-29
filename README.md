@@ -1,6 +1,11 @@
 Mask RCNN based blood cell classification
 
+* Please download following coco mask rcnn pretrained model to enable transfer learning [https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5](https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5)
+* Versions of **mask-rcnn, tensorflow, tensorflow-gpu, scikit-image and keras** should match the versions mentioned below to successfully run the project
+* Fully trained model needed for inference can be found here [https://drive.google.com/uc?id=1Y01piV_VTMTaBu4twIohJ9Om9RnV4DNf&export=download](https://drive.google.com/uc?id=1Y01piV_VTMTaBu4twIohJ9Om9RnV4DNf&export=download)
+
 Trained using CUDA 10 with CUDNN enabled GTX 1080 and Ryzen 5800X on Windows 10 build 19042. Python version 3.7.7 64bit with the following packages installed
+
 Package              Version  
 -------------------- ---------
 absl-py              0.12.0   
@@ -58,4 +63,3 @@ wheel                0.36.2
 wrapt                1.12.1
 zipp                 3.4.1
 
-``Versions of mask-rcnn, tensorflow, tensorflow-gpu, scikit-image and keras should match the versions mentioned above to successfully run the project``
