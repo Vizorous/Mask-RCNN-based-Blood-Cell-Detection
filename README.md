@@ -17,7 +17,7 @@ cycler               0.10.0
 decorator            4.4.2    
 gast                 0.2.2    
 google-pasta         0.2.0    
-grpcio               1.36.1   
+grpcio               1.36.1
 h5py                 2.10.0
 imageio              2.9.0
 importlib-metadata   3.7.3
